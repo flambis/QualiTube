@@ -18,43 +18,45 @@ QualiTube est un outil permettant de rechercher et d'analyser des vidéos YouTub
 git clone https://github.com/flambis/qualitube.git
 cd qualitube
 
+```
+
 2. Créer un environnement virtuel
 
 Il est recommandé d'utiliser un environnement virtuel pour gérer les dépendances du projet.
 
-bash
+```bash
 
 python3 -m venv venv
 source venv/bin/activate  # Sur Windows : venv\Scripts\activate
-
+```
 3. Installer les dépendances
 
 Installez toutes les bibliothèques nécessaires listées dans requirements.txt.
 
-bash
+```bash
 
 pip install -r requirements.txt
-
+```
 4. Configurer les variables d'environnement
 
 Créez un fichier .env à la racine du projet et ajoutez vos clés API ainsi que la clé secrète de Flask.
 
-env
+```env
 
 FLASK_SECRET_KEY=your_secret_key
 GEMINI_API_KEY=your_gemini_api_key
 SUPABASE_URL=your_supabase_url
 SUPABASE_KEY=your_supabase_key
-
+```
 Remarque : Assurez-vous de ne jamais partager ce fichier ou de le commettre dans votre dépôt public.
 5. Lancer l'application
 
 Démarrez le serveur Flask en exécutant le script run.py.
 
-bash
+```bash
 
 python run.py
-
+```
 L'application sera accessible sur http://localhost:4000.
 Utilisation
 
