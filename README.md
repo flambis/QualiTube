@@ -10,32 +10,6 @@ QualiTube est un outil permettant de rechercher et d'analyser des vidéos YouTub
 - **Suggestions automatiques :** Fournit des suggestions de recherche basées sur une entrée partielle de l'utilisateur.
 - **Filtrage avancé :** Permet de filtrer les vidéos par durée et date de publication.
 
-## Structure du Projet
-
-qualitube/
-├── app/
-│   ├── __init__.py
-│   ├── routes.py
-│   ├── utils/
-│   │   ├── __init__.py
-│   │   ├── analysis.py
-│   │   ├── logger.py
-│   │   ├── search.py
-│   │   └── suggestions.py
-│   ├── templates/
-│   │   ├── index.html
-│   │   └── privacy-policy.html
-│   └── static/
-│       ├── css/
-│       │   └── styles.css
-│       └── js/
-│           └── scripts.js
-├── config.py
-├── requirements.txt
-├── .gitignore
-├── README.md
-└── run.py
-
 ## Installation
 
 ### 1. Cloner le dépôt
