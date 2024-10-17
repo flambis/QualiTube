@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environnements virtuels
+venv/
+ENV/
+env/
+
+# Fichiers de configuration
+.env
+
+# Logs
+*.log
+
+# Dossiers de déploiement
+instance/

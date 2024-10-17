@@ -1,0 +1,8 @@
+Flask
+scrapetube
+pytube
+google-generativeai
+python-dotenv
+youtube-transcript-api
+requests
+beautifulsoup4

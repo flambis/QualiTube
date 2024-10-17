@@ -1,0 +1,38 @@
+<!-- app/templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QualiTube - Search YouTube</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>QualiTube</h1>
+        <p>{{ messages['welcome_message'] }}</p>
+        <form id="search-form">
+            <label for="search_query">{{ messages['search_query_label'] }}</label>
+            <input type="text" id="search_query" name="search_query" placeholder="{{ messages['search_query_placeholder'] }}" required>
+
+            <label for="duration_filter">{{ messages['duration_label'] }}</label>
+            <select id="duration_filter" name="duration_filter">
+                <option value="any">{{ messages['duration_options']['any'] }}</option>
+                <option value="short">{{ messages['duration_options']['short'] }}</option>
+                <option value="medium">{{ messages['duration_options']['medium'] }}</option>
+                <option value="long">{{ messages['duration_options']['long'] }}</option>
+                <option value="very_long">{{ messages['duration_options']['very_long'] }}</option>
+            </select>
+
+            <label for="min_publish_date">{{ messages['min_publish_date_label'] }}</label>
+            <input type="date" id="min_publish_date" name="min_publish_date" placeholder="{{ messages['optional_placeholder'] }}">
+
+            <button type="submit">{{ messages['submit_button'] }}</button>
+        </form>
+
+        <div id="results">
+            <!-- Les résultats de la recherche seront insérés ici -->
+        </div>
+    </div>
+</body>
+</html>
