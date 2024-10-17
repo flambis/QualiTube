@@ -62,19 +62,19 @@ L'application sera accessible sur http://localhost:4000.
 
 ### Utilisation
 
-Page de Recherche : Accédez à la page principale pour entrer votre requête de recherche. Vous pouvez affiner vos recherches en utilisant les filtres de durée et de date de publication.
-Résultats : Les vidéos correspondant à vos critères seront affichées avec des scores de pertinence et des explications personnalisées.
-Suggestions : En tapant dans la barre de recherche, des suggestions automatiques vous aideront à affiner votre requête.
+    Page de Recherche : Accédez à la page principale pour entrer votre requête de recherche. Vous pouvez affiner vos recherches en utilisant les filtres de durée et de date de publication.
+    Résultats : Les vidéos correspondant à vos critères seront affichées avec des scores de pertinence et des explications personnalisées.
+    Suggestions : En tapant dans la barre de recherche, des suggestions automatiques vous aideront à affiner votre requête.
 
 ### Contribution
 
 Les contributions sont les bienvenues ! Voici comment vous pouvez aider à améliorer QualiTube :
 
-Forker le dépôt : Créez un fork du projet sur GitHub.
-Créer une branche : Créez une branche pour votre fonctionnalité ou correction de bug (git checkout -b feature/nom-de-la-fonctionnalité).
-Commiter vos changements : Commitez vos modifications avec un message clair (git commit -m "Ajoute une nouvelle fonctionnalité X").
-Pousser vers le fork : Poussez votre branche vers votre fork (git push origin feature/nom-de-la-fonctionnalité).
-Créer une Pull Request : Ouvrez une Pull Request sur le dépôt principal en décrivant vos changements.
+    Forker le dépôt : Créez un fork du projet sur GitHub.
+    Créer une branche : Créez une branche pour votre fonctionnalité ou correction de bug (git checkout -b feature/nom-de-la-fonctionnalité).
+    Commiter vos changements : Commitez vos modifications avec un message clair (git commit -m "Ajoute une nouvelle fonctionnalité X").
+    Pousser vers le fork : Poussez votre branche vers votre fork (git push origin feature/nom-de-la-fonctionnalité).
+    Créer une Pull Request : Ouvrez une Pull Request sur le dépôt principal en décrivant vos changements.
 
 Veuillez vous assurer que vos contributions respectent les standards de code et que le projet reste fonctionnel après vos modifications.
 Licence
@@ -83,10 +83,10 @@ Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 ### Remerciements
 
-Merci à Scrapetube pour leur outil de scraping YouTube.
-Merci à Pytube pour l'extraction des métadonnées des vidéos.
-Merci à l'équipe de Supabase pour leurs services backend.
-Merci à OpenAI pour l'API Gemini utilisée dans ce projet.
+    Merci à Scrapetube pour leur outil de scraping YouTube.
+    Merci à Pytube pour l'extraction des métadonnées des vidéos.
+    Merci à l'équipe de Supabase pour leurs services backend.
+    Merci à OpenAI pour l'API Gemini utilisée dans ce projet.
 
 ### Contact
 
